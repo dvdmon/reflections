@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff isolated all changes, which drastically cut down on the searching needed to find the bug.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can easily track how something was changed so if it initially had problems or just wasn't efficient, you can see how it developed over time and how you might have been able to come up with the ultimate version faster.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros are that the comits are based on logical places - individual bugs or features, so that if an issue crops up, you can track down which bug fix or feature addition caused the issue and theoretically remove or fix just that one modular item.  The downside is that if the feature is large and complex, and isn't easily broken into smaller pieces, a fairly large amount of code changes might be lost if something happens to your coding device between commits.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs is mainly for simple document repositories that only need to be concerned with one document at a time, whereas ones like Git that are based on code, necessarily have to be concerned with multiple files because coding a feature or fixing a bug can sometimes touch on multiple files.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log gets a list of all the comits that have ocurred for a given repository whereas git diff can give you details of exactly how certain files have changed between two different commits.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+If you can easily revert to an earlier version, than you can easily change things knowing you can go back to a version that didn't have issues.
+
