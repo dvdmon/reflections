@@ -27,3 +27,8 @@ How might using version control make you more confident to make changes that cou
 
 If you can easily revert to an earlier version, than you can easily change things knowing you can go back to a version that didn't have issues.
 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Any coding project would be a good to start using git for.
+
