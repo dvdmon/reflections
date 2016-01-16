@@ -5,6 +5,21 @@ Initializing a repository sets it up with git meta data so that it can track cha
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area is just a way to think of changed, uncommitted files in a repository.  It isn't a "place" but it can be useful to think of it this way - when you change something in your repository it should automatically go into this "area" to alert you that it is different from the last commit but hasn't been committed yet itself.
+The staging area is a transitionary "place" that you put files that you intent to commit.  Before you add files to it, it will contain whatever was in the last commit for a given file in the repository.  If you want to make a change, you would make a change to a file, which would chang it "in the working directory."  Then you would have to add it to the staging area with the git add command.  Finally, a commit will add whatever files have been added to that staging area to a new commit in the repository.  While this means multiple steps, it also means that you have more clarity of what has changed and what is being added before committing anything.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+if you do a git diff --staged you can see what files have changed from the staging area to the last commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are good for when you think their might be a reason to have more than one version of that code, either for different languages, different devices, or other things that conditions that would require you to add a lot more code, thus making the memory and storage requirements larger.
+
+
+How do the diagrams help you visualize the branch structure?
+
+By visualizing branches, it helps you to understand how different branches relate to each other - what their most recent common ancestor is, and whether a given commit is reachable from another.
 
 
