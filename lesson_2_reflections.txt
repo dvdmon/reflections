@@ -23,3 +23,6 @@ How do the diagrams help you visualize the branch structure?
 By visualizing branches, it helps you to understand how different branches relate to each other - what their most recent common ancestor is, and whether a given commit is reachable from another.
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches combines the code in each to make one file (or set of files) that combine the changes in the two branches.  The diagram visualizes how the two chains of changes merge into a single all-encompassing version set.
