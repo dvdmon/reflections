@@ -7,3 +7,8 @@ your current local repository location is unreliable (not able to connect to the
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If you have a public repository, you may want to commit individual features within a new featureset, or one small bug at a time and then have a new version of your project which addresses a number of bugs and features at once.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clones are exact copies of a given set of code, inluding all branches up to the latest commit.  Branches can be seen as different versions of a set of code, whereas forks are a kind of clone but specific to github - it clones a given repository and sets it up for a new user to be the keeper of that repository and can manage future changes, but while still having a link crediting the origin of the initial repository owner.  You would use forks, thus, when you want to manage your own version of a repository and potentially get your own collaborators but still make sure you are giving credit to the original owner.  Branches are simply ways of creating different versions of a given repository, but can also be used when wanting to work on a bug or feature set and keeping that set of changes separate from the main or master branch until they are done, when they can be merged back in.  Cloing is done when you want to initially create a copy of a given repository from a remote location to your local device.
