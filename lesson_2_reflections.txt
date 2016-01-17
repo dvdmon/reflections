@@ -26,3 +26,9 @@ By visualizing branches, it helps you to understand how different branches relat
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches combines the code in each to make one file (or set of files) that combine the changes in the two branches.  The diagram visualizes how the two chains of changes merge into a single all-encompassing version set.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging can save a lot of time by merging sections of code that are obvious automatically yet involving the user in sections that cannot be done, but pinpointing those sections rather than forcing the user to peruse their entire file or files to find the pertinant changes.
+
