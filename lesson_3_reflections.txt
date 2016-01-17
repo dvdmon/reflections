@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+If you are colaborating with others and want your changes to be immediately visible, and/or when 
+your current local repository location is unreliable (not able to connect to the internet, borrowed for a short period of time, etc.)
