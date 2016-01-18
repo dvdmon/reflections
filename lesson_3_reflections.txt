@@ -17,3 +17,12 @@ Clones are exact copies of a given set of code, inluding all branches up to the 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This will make it easier to compare your code to the repository version (before fetched/pulled) and allow you to see what that state was even if you are offline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without any version control system, you would have to email your changes to the other people in the team each time you made a change so that they could incorporate it into theirs.  If they found an issue they would have to alert all the team members to not include it and then you would have to fix the issue and resubmit.  This would make things a lot more cumbersome because every team member would have to manually merge in your changes and each time someone missed a conflict or something broke, each person would independently be trying to figure out what went wrong until the first person posted about it.  The only thing that would be easier would be that you would just need to edit and save and then email your change to everyone, so the person making the change would have it easier, but everyone else would have it harder.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When you are colaborating with others, making a separate branch can be helpful in keeping your changes distinct and separate from other changes that other colaborators may be doing until they all can review your changes and determine whether they will work well with the changes they have been making and not conflict too much, or that they don't have errors before they are encorporated into the Master where they would need to be the fixed as an additional task.
